@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@500&family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(to right,#69129b, #157777);
+    padding-bottom: 70px;
+}
+
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+.container form .row{
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col{
+    flex:1 1 250px
+}
+.container form .row .col .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.container form .row .col .inputBox{
+    margin: 15px 0;
+}
+.container form .row .col .inputBox span{
+    margin-bottom: 5px;
+    display: block;
+}
+.container form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.container form .row .col .inputBox input:focus{
+    border: 1px solid #000;
+}
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+.container form .row .col .flex .inputBox{
+    margin-top: 5px;
+}
+img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+}
+.container form .submit-btn{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #2ecc71;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: #333;
+}
+.container form .submit-btn:hover{
+    font-size: 18px;
+    background: #22a759;
+
+}
